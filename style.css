@@ -60,6 +60,9 @@ button {
   width: 100px;
   height: 30px;
   border-radius: 5px;
+}
+
+.hero button {
   border-color: transparent;
 }
 
@@ -73,7 +76,7 @@ button {
     background-color: white;
     padding-top: 30px;
     padding-bottom: 100px;
-    text-align: center
+    text-align: center;
 }
 
 .card-showcase {
@@ -113,4 +116,31 @@ button {
 .quote-author {
     font-weight: bold;
     align-self: flex-end;
+}
+
+.call-to-action {
+    margin: 100px;
+    padding: 20px 100px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.call-to-action p {
+    color: #E5E7EB;
+}
+
+.call-to-action button {
+    border: 2px solid; 
+}
+
+.copyright {
+    background-color: #1F2937;
+    padding: 30px 200px;
+    color: #E5E7EB;
+    text-align: center;
 }
