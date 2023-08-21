@@ -38,13 +38,20 @@ a {
 .introduction {
   display: flex;
   padding: 16px 0;
-  gap: 32px;
+  gap: 80px;
 }
 
 .description {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  flex: 1;
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 button {
