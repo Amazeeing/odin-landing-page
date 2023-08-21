@@ -95,3 +95,22 @@ button {
     width: 200px;
     object-fit: scale-down;
 }
+
+.inspiring-quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 50px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: bold;
+    align-self: flex-end;
+}
